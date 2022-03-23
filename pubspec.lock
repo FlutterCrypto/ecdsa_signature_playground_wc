@@ -318,9 +318,11 @@ packages:
   webcrypto:
     dependency: "direct main"
     description:
-      name: webcrypto
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: cbd72d4bffb1334e0b57565d258ca93f9ae8375e
+      url: "https://github.com/google/webcrypto.dart.git"
+    source: git
     version: "0.5.2"
   win32:
     dependency: transitive

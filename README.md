@@ -15,6 +15,11 @@ url_launcher: ^6.0.20
 https://pub.dev/packages/path_provider
 path_provider: ^2.0.9
 
+load newest version from GitHub:
+  webcrypto:
+    git:
+      url: https://github.com/google/webcrypto.dart.git
+
 in AndroidManifest.xml ergänzen:
     ... </application>
     

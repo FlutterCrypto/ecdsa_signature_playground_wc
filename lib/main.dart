@@ -9,6 +9,15 @@ import 'ecdsa_curve_p256_sha1_signature_verification_route.dart';
 
 void main() => runApp(MyApp());
 
+/*
+in impl_ffi impl_ffi.utils.dart
+line 38ff
+  if (ret != 1) {
+    print('error in impl_ffi.utils.dart: package:webcrypto failed to attached finalizer');
+    //throw AssertionError('package:webcrypto failed to attached finalizer');
+  }
+ */
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
